@@ -164,7 +164,7 @@ panel>fieldset>div>hr, panel>block>hr {
 }
 
 panel>fieldset {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     border: 1px solid #a6aab3;
     -moz-border-radius: 9px;
     -webkit-border-radius: 9px;
@@ -900,7 +900,7 @@ panel>label {
 }
 
 fieldset>a[href]:not([type="ad"]) {
-    background: #f7f7f7 !important
+    background: #ffffff !important
 }
 
 fieldset>a[href]:not([type="ad"]):after, fieldset>div>select:after, fieldset>div>div>select:after {
