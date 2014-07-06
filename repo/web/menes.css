@@ -911,7 +911,7 @@ fieldset>a[href]:not([type="ad"]):after, fieldset>div>select:after, fieldset>div
     height: 26px;
     zoom: 50%;
     left: 30px;
-    background: url(/cydia/next.png)
+    background: url(next.png)
 }
 
 a.paid {
