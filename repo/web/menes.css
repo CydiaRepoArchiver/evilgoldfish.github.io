@@ -770,7 +770,7 @@ body.transparent {
 
 @media screen and (max-device-width:480px) {
     body.pinstripe {
-        background: #c7ced5 url(http://cache.saurik.com/menes/pinstripes.png)
+        background: transparent
     }
 
     panel {
