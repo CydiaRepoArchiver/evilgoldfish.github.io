@@ -1,0 +1,51 @@
+Package: com.evilgoldfish.floativator
+Version: 0.9.3-5
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish
+Installed-Size: 260
+Depends: mobilesubstrate, libactivator, preferenceloader
+Filename: .//com.evilgoldfish.floativator_0.9.3-5_iphoneos-arm.deb
+Size: 50030
+MD5sum: 8ca3373ba0a66c96c08014c718a83dad
+SHA1: 8926971e74bfe0b1a74c3f982ee7fd1277b37d69
+SHA256: a4e8b7090167596fb99c47bb864c02ea50db34e61bd2d8e014aae03044d0a290
+Section: Tweaks
+Description: A tweak that creates floating buttons that can be assigned Activator actions.
+Author: evilgoldfish
+Depiction: http://evilgoldfish.github.io/repo/floativator/index.html
+Name: Floativator
+
+Package: com.evilgoldfish.iconresizer
+Version: 0.9.3-2
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish & broganminer
+Installed-Size: 248
+Depends: mobilesubstrate, applist, preferenceloader
+Filename: .//com.evilgoldfish.iconresizer_0.9.3-2_iphoneos-arm.deb
+Size: 49586
+MD5sum: 8e91b9fff37bcc7428faf9298d703f4f
+SHA1: f72561d875d5239845fea05b58431f97924f8729
+SHA256: 0d4891c9bb590caed3e0e738ce2964cc477c4d32414e962f7024c13333987f9f
+Section: Tweaks
+Description: A tweak to resize individual icons.
+Author: evilgoldfish & broganminer
+Depiction: http://evilgoldfish.github.io/repo/iconresizer/index.html
+Name: Icon Resizer
+
+Package: com.evilgoldfish.noplayerblur
+Version: 0.9.1-2
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: .//com.evilgoldfish.noplayerblur_0.9.1-2_iphoneos-arm.deb
+Size: 3790
+MD5sum: 6b8d93c40790008532aadbfb67327991
+SHA1: c8bcb04217e02edce5ba2f1c16fd2dd425496d66
+SHA256: 874340d662f24d634212400df22cda4d9746e9d42ffdc6a5e6bb3e22b25f9edf
+Section: Tweaks
+Description: Removes the blur on the iOS movie player.
+Author: evilgoldfish
+Depiction: http://evilgoldfish.github.io/repo/noplayerblur/index.html
+Name: NoPlayerBlur
+

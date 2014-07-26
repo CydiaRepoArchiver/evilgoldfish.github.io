@@ -1,0 +1,11 @@
+Origin: evilgoldfish's Repo
+Label: evilgoldfish's Repo
+Suite: stable
+Version: 1.0
+Codename: evilgrepo
+Architectures: iphoneos-arm
+Components: main
+Description: The repo that features all of evilgoldfish's packages (usually beta packages)
+MD5Sum:
+ 6a29173d6b177a6e8ff0ee50c47d92a2 1836 Packages
+ ee7ce122a64392d45772b78019d72d83 885 Packages.bz2
