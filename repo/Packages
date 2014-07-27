@@ -33,19 +33,18 @@ Depiction: http://evilgoldfish.github.io/repo/iconresizer/index.html
 Name: Icon Resizer
 
 Package: com.evilgoldfish.noplayerblur
-Version: 0.9.1-2
+Version: 1.0.2-11
 Architecture: iphoneos-arm
 Maintainer: evilgoldfish
-Installed-Size: 88
+Installed-Size: 184
 Depends: mobilesubstrate
-Filename: .//com.evilgoldfish.noplayerblur_0.9.1-2_iphoneos-arm.deb
-Size: 3790
-MD5sum: 6b8d93c40790008532aadbfb67327991
-SHA1: c8bcb04217e02edce5ba2f1c16fd2dd425496d66
-SHA256: 874340d662f24d634212400df22cda4d9746e9d42ffdc6a5e6bb3e22b25f9edf
+Filename: .//com.evilgoldfish.noplayerblur_1.0.2-11_iphoneos-arm.deb
+Size: 12746
+MD5sum: 0bf3b2a7882e71977bda666a41b1316a
+SHA1: 1b525e11f2d8b37e5d87656c623c1b11d69ab0ec
+SHA256: 0ffe3374ca24c5c1e28a7812d55d00d5a8dacf80a71f8c7875f2a3bc93256f85
 Section: Tweaks
 Description: Removes the blur on the iOS movie player.
-Author: evilgoldfish
-Depiction: http://evilgoldfish.github.io/repo/noplayerblur/index.html
+Author: evilgoldfish <epdev@icloud.com>
 Name: NoPlayerBlur
 
