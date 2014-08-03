@@ -1,15 +1,15 @@
 Package: com.evilgoldfish.brightplayer
-Version: 1.0.3-beta-5
+Version: 1.0.3-beta-6
 Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 240
 Depends: mobilesubstrate
 Conflicts: kr.slak.rotatevideo
-Filename: .//com.evilgoldfish.brightplayer_1.0.3-beta-5_iphoneos-arm.deb
-Size: 36240
-MD5sum: ab83a8e2c95a038768626b0bbf542eda
-SHA1: 0e24e868014057b83335232b9e0b24365e781b28
-SHA256: f372f49aeda6f1c83afacf669f7001bc51e65233b7aacd5297ce3af7c6b97165
+Filename: .//com.evilgoldfish.brightplayer_1.0.3-beta-6_iphoneos-arm.deb
+Size: 37616
+MD5sum: 4826414da28bb7729b99ab60ff7026e2
+SHA1: 3147780ca381a4b538fa74af09f6e3a8df5b9811
+SHA256: 979d61798e1339d6c7d07f23bf9f2b52bee96c3c404c86bde552bd3240f7eae5
 Section: Tweaks
 Description: Adds a brightness slider in the iOS media player.
 Author: evilgoldfish <epdev@icloud.com>
