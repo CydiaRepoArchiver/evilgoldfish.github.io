@@ -49,6 +49,22 @@ Author: evilgoldfish & broganminer
 Depiction: http://evilgoldfish.github.io/repo/iconresizer/index.html
 Name: Icon Resizer
 
+Package: com.evilgoldfish.nophotosanti-aliasing
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: .//com.evilgoldfish.nophotosanti-aliasing_1.0.0-1_iphoneos-arm.deb
+Size: 3514
+MD5sum: c74c5935aac2d1a42fe7dcc65fe5c8b9
+SHA1: 322d7160514a4323faf9048f058868def1af17fa
+SHA256: 9ae4938f8e590a09b40a177c0ed1369fefeb423a3aa0e88f67cb4e21492d0f0f
+Section: Tweaks
+Description: A minor tweak to disable the anti-aliasing inside the Photos app.
+Author: evilgoldfish
+Name: No Photos Anti-Aliasing
+
 Package: com.evilgoldfish.noplayerblur
 Version: 1.0.2-11
 Architecture: iphoneos-arm
