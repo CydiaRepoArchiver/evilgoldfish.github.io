@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:100,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:200,400,700);
 /*!
  * bootswatch v3.2.0
  * Homepage: http://bootswatch.com
@@ -890,7 +890,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.4;
   color: #222222;
@@ -992,7 +992,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   line-height: 1.1;
   color: inherit;
 }
@@ -4569,7 +4569,7 @@ a.list-group-item.active > .badge,
   .jumbotron .h1 {
     font-size: 67.5px;
     font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
   }
 }
 .thumbnail {
