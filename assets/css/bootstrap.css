@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 /*!
  * bootswatch v3.2.0
  * Homepage: http://bootswatch.com
@@ -992,7 +992,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.1;
   color: inherit;
 }
