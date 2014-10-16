@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:200,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,200,400);
 /*!
  * bootswatch v3.2.0
  * Homepage: http://bootswatch.com
@@ -4569,7 +4569,7 @@ a.list-group-item.active > .badge,
   .jumbotron .h1 {
     font-size: 67.5px;
     font-family: 'Lato', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
   }
 }
 .thumbnail {
