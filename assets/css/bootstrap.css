@@ -6478,3 +6478,34 @@ label,
 .modal .close {
   color: #222222;
 }
+
+/* extra code */
+/* centering columns */
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left;
+  margin-right:-4px;
+}
+
+/* thumbnail hovering */
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
