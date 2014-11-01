@@ -1,3 +1,20 @@
+Package: com.evilgoldfish.auxgrabber
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish
+Installed-Size: 184
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader, applist
+Filename: .//com.evilgoldfish.auxgrabber_1.0.0-2_iphoneos-arm.deb
+Size: 12748
+MD5sum: bb37e14ef4cab3cff8cd551bce3f667b
+SHA1: cffbe40db40fa934dc7af0097ca432625b49f994
+SHA256: bf7e186bc0377ec409bedadeb062a60c3bacec5873b48c76ef15dc98b9a24891
+Section: Tweaks
+Description: Add an extra grabber on the bottom left of the lock screen.
+Author: evilgoldfish
+Depiction: http://evilgoldfish.github.io/repo/auxgrabber/index.html
+Name: AuxGrabber
+
 Package: com.evilgoldfish.brightplayer
 Version: 1.0.3-beta-6
 Architecture: iphoneos-arm

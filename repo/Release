@@ -7,5 +7,5 @@ Architectures: iphoneos-arm
 Components: main
 Description: The repo that features all of evilgoldfish's packages (usually beta packages)
 MD5Sum:
- 840fb84e4f04be85dc21f996e96e3b37 2920 Packages
- a59cf076f6c61fe4bf4f29772b20bc78 1280 Packages.bz2
+ 24621204ca007af13ea743ae43280045 3552 Packages
+ 86d9a05e6896299556cf0e71d2fa7316 1467 Packages.bz2
