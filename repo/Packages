@@ -32,6 +32,22 @@ Description: Adds a brightness slider in the iOS media player.
 Author: evilgoldfish <epdev@icloud.com>
 Name: BrightPlayer
 
+Package: com.evilgoldfish.failsafe
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: .//com.evilgoldfish.failsafe_1.0.0-1_iphoneos-arm.deb
+Size: 3936
+MD5sum: c65d940a91ecb90b5b4046f446b7b7ee
+SHA1: af2d3500caf62304f3ad5925660f371f9c77a506
+SHA256: 85f699ebd746b7637e1b47d82bc7363f6c1f43a35a25be2a05992e19234872cb
+Section: Tweaks
+Description: Enable Wi-Fi, Data and Location Services when an incorrect passcode is entered.
+Author: evilgoldfish
+Name: FailSafe
+
 Package: com.evilgoldfish.floativator
 Version: 0.9.3-5
 Architecture: iphoneos-arm
