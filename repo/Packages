@@ -83,6 +83,22 @@ Author: evilgoldfish & broganminer
 Depiction: http://evilgoldfish.github.io/repo/iconresizer/index.html
 Name: Icon Resizer
 
+Package: com.evilgoldfish.incorrectpasscodeevent
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish <epdev@icloud.com>
+Installed-Size: 88
+Depends: libactivator (>= 1.8.3), mobilesubstrate
+Filename: .//com.evilgoldfish.incorrectpasscodeevent_1.0.0-1_iphoneos-arm.deb
+Size: 7882
+MD5sum: e0e1b6274272c9cad1c66c6afe64ba62
+SHA1: 0391c4756102aa2740f810bb5ec1e5fb3969b736
+SHA256: 136f8a94f7570eb6cf806b5939622390d3741608a339d4646bd64ee5264f41a9
+Section: Tweaks
+Description: An Activator event that is fired whenever an incorrect passcode or fingerprint is used to unlock the device.
+Author: evilgoldfish <epdev@icloud.com>
+Name: Incorrect Passcode For Activator
+
 Package: com.evilgoldfish.nophotosanti-aliasing
 Version: 1.0.0-1
 Architecture: iphoneos-arm
