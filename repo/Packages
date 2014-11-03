@@ -33,16 +33,16 @@ Author: evilgoldfish <epdev@icloud.com>
 Name: BrightPlayer
 
 Package: com.evilgoldfish.failsafe
-Version: 1.0.1-35
+Version: 1.0.1-37
 Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 184
 Depends: mobilesubstrate
-Filename: .//com.evilgoldfish.failsafe_1.0.1-35_iphoneos-arm.deb
-Size: 15524
-MD5sum: ec508dbac94b00e5c58eb8b9135bc18f
-SHA1: 16a40f4424696fb5216b368178d672a1af7a521b
-SHA256: 943a4dd98d738c395af55106fdef4e571e2cb82b365d77f8d50b42dbf18b4784
+Filename: .//com.evilgoldfish.failsafe_1.0.1-37_iphoneos-arm.deb
+Size: 15528
+MD5sum: acd4394ca68c4e0daff41de1a30d7eb7
+SHA1: b14244f86616da19d0c247e0445ee330449ac032
+SHA256: 7fda5676190b407c9c3e2976b39ec2bfadfe56ce6b35db914e43722c37fe2482
 Section: Tweaks
 Description: Enable Wi-Fi, Data and Location Services when an incorrect passcode is entered.
 Author: evilgoldfish
