@@ -1,2 +1,4 @@
 repo/update.sh
 repo/Releasetemp
+.DS_Store
+._*
