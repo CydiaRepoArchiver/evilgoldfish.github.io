@@ -100,16 +100,16 @@ Author: evilgoldfish <epdev@icloud.com>
 Name: Incorrect Passcode For Activator
 
 Package: com.evilgoldfish.lockglyph
-Version: 1.1.9-10
+Version: 1.1.9-17
 Architecture: iphoneos-arm
 Maintainer: evilgoldfish
-Installed-Size: 436
+Installed-Size: 452
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
-Filename: .//com.evilgoldfish.lockglyph_1.1.9-10_iphoneos-arm.deb
-Size: 101810
-MD5sum: 314a4bf04359693be0c7fb0b594334da
-SHA1: 8bd32d89f0af1ca131e72575c2530b9caf0e8a7c
-SHA256: c1ebee7ee0766a979f03b7a3767a741851793de071dfc7d136a341b8766cc485
+Filename: .//com.evilgoldfish.lockglyph_1.1.9-17_iphoneos-arm.deb
+Size: 103808
+MD5sum: 95b7d05d430e59b139d3c866fcf5a9b7
+SHA1: 1de0856d230b8b2b57685461f625bb64ac43db22
+SHA256: 57505e394a237593e8ba21c6349d0c4690e84cda1e434852214ba026bbc25565
 Section: Tweaks
 Description: Adds the Apple Pay completed payment animation to the lockscreen, and animates when unlocking the device with Touch ID.
 Author: evilgoldfish
