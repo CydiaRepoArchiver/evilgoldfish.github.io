@@ -1,92 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta charset=”utf-8”>
- <title>Evan Petousis</title>
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <!-- Bootstrap -->
- <link href="assets/css/bootstrap.css" rel="stylesheet">
- <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,100' rel='stylesheet' type='text/css'>
+	<meta charset=”utf-8”>
+	<title>Evan Petousis</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.growobj{
+			-webkit-transition: width 1s ease-out;
+			transition: width 1s ease-out;
+			width: 0%;
+		}
+		.growobjload{
+			width: 100%;
+		}
+		html, body {
+			height: 100%;
+		}
+
+		html {
+			display: table;
+			margin: auto;
+		}
+
+		body {
+			display: table-cell;
+			vertical-align: middle;
+		}
+        .fadeobj {
+            -webkit-transition: opacity 1s ease-in;
+            transition: opacity 1s ease-in;
+            opacity: 0;
+        }
+
+        .fadeobjload {
+            opacity: 1;
+        }
+        
+        .circleclip {
+            border-radius: 50%;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+	</style>
 </head>
 <body>
 
-  <div class="jumbotron">
-    <div class="container vcard">
-      <div style="text-align:center"><h1><span class="fn">Evan Petousis</span></h1></div>
+	<div class="container fadeobj">
+        <img class="img-responsive circleclip" style="margin-left: auto; margin-right: auto; max-width:30%;" src="assets/img/me.JPG">
+		<div class="text-center" itemscope itemtype="http://schema.org/Person">
+			<div itemprop="name"><h1 style="font-family: Open Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif">Evan Petousis</h1></div>
 
-      <div style="text-align:center"><p><span class="title">Student and developer</span> from <span class="adr"><span class="region">Australia</span></span>.</p></div>
+            <div itemprop="description" style="font-family: Open Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif"><p>Developer from Australia.</p></div>
+		</div>
+	</div>
 
-      <div style="text-align:center"><a href="http://www.google.com/recaptcha/mailhide/d?k=01FI7LDsdAVlE72uUOCrgvQg==&amp;c=Q00DxMEiZxN3GPJ2Pnieg8DimhdswAswZWlMhMQ5lQg=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501FI7LDsdAVlE72uUOCrgvQg\75\75\46c\75Q00DxMEiZxN3GPJ2Pnieg8DimhdswAswZWlMhMQ5lQg\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" class="btn btn-large btn-success">Send an email</a></div>
-    </div>
-  </div>
-  
-  <div class="page-header">
-    <div style="text-align:center; font-weight: 200"><h1>Projects</h1></div>
-  </div>
-  <div class="container">
-    <div class="row row-centered">
-      <div class="col-lg-4 col-sm-4 col-xs-6 col-centered">
+	<hr class="growobj">
 
-        <div class="thumbnail">
-          <div class="caption">
-            <h4>Floativator</h4>
-            <p>An iOS tweak that places floating buttons on the screen that can be controlled by Activator.</p>
-            <p><a href="https://github.com/evilGoldfish/Floativator" class="btn btn-danger">View source</a>
-              <a href="" class="btn btn-default disabled">Download</a></p>
-            </div>
-            <img src="assets/img/floativator.png">
-            <!--<video width="480" height="320" autoplay="autoplay" loop="loop"><source src="assets/vid/LockGlyph.m4v" type="video/mp4"></video>-->
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-4 col-xs-6 col-centered">
+	<div class="container fadeobj">
+		<div class="row row-centered">
+			<div class="col-xs-3 col-sm-2 col-centered">
+				<a href="https://github.com/evilgoldfish"><img class="img-responsive" src="assets/icons/github-256-grey.png"></a>
+			</div>
+			<div class="col-xs-3 col-sm-2 col-centered">
+				<a href="https://twitter.com/evanpetousis"><img class="img-responsive" src="assets/icons/twitter-256-grey.png"></a>
+			</div>
+			<div class="col-xs-3 col-sm-2 col-centered">
+				<a href="https://plus.google.com/+EvanPetousis"><img class="img-responsive" src="assets/icons/googleplus-256-grey.png"></a>
+			</div>
+		</div>
+	</div>
 
-          <div class="thumbnail">
-            <div class="caption">
-              <h4>NoPlayerBlur</h4>
-              <p>An iOS tweak that disables the blur behind the video player controls.</p>
-              <p><a href="https://github.com/evilGoldfish/NoPlayerBlur" class="btn btn-danger">View source</a>
-                <a href="" class="btn btn-default disabled">Download</a></p>
-              </div>
-              <img src="assets/img/noplayerblur.png">
-            </div>
-          </div>
-        </div>
-      </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("[rel='tooltip']").tooltip();    
 
-      <div class="page-header">
-        <div style="text-align:center"><h1>Find me on</h1></div>
-      </div>
-      <div class="container">
-        <div class="row row-centered">
-        	<div class="col-lg-3 col-centered">
-          	<a href="https://github.com/evilgoldfish"><img class="img-responsive" src="assets/icons/github-256.png" style="background-color: #4183C4"></a>
-        	</div>
-        	<div class="col-lg-3 col-centered">
-          	<a href="https://twitter.com/evanpetousis"><img class="img-responsive" src="assets/icons/twitter-256.png" style="background-color: #00ACED"></a>
-        	</div>
-        	<div class="col-lg-3 col-centered">
-          	<a href="https://plus.google.com/+EvanPetousis"><img class="img-responsive" src="assets/icons/googleplus-256.png" style="background-color: #D14836"></a>
-        	</div>
-      	</div>
-      </div>
-
-    <p>&nbsp;</p>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-     $( document ).ready(function() {
-      $("[rel='tooltip']").tooltip();    
-
-      $('.thumbnail').hover(
-        function(){
-            $(this).find('.caption').fadeIn(250); //.slideDown(250);
-          },
-          function(){
-            $(this).find('.caption').fadeOut(205); //.slideUp(250);
-          }
-          ); 
-    });
-   </script>
- </body>
- </html>
+			$('.thumbnail').hover(
+				function(){
+					$(this).find('.caption').fadeIn(250); //.slideDown(250);
+				},
+				function(){
+					$(this).find('.caption').fadeOut(205); //.slideUp(250);
+				}
+			); 
+            
+            $(".fadeobj").addClass("fadeobjload");
+			setTimeout(function(){
+				$('.growobj').addClass('growobjload');
+			}, 275);
+		});
+	</script>
+</body>
+</html>
