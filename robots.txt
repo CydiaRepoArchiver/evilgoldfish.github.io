@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: /assets/
-Allow: /assets/js/
 Allow: /assets/css/
 Disallow: /misc/
 Disallow: /repo/
