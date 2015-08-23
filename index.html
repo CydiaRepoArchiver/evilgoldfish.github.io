@@ -9,14 +9,6 @@
 	<link href="assets/css/bootstrap.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<style>
-		.growobj{
-			-webkit-transition: width 1s ease-out;
-			transition: width 1s ease-out;
-			width: 0%;
-		}
-		.growobjload{
-			width: 100%;
-		}
 		html, body {
 			height: 100%;
 		}
@@ -30,15 +22,6 @@
 			display: table-cell;
 			vertical-align: middle;
 		}
-        .fadeobj {
-            -webkit-transition: opacity 1s ease-in;
-            transition: opacity 1s ease-in;
-            opacity: 0;
-        }
-
-        .fadeobjload {
-            opacity: 1;
-        }
         
         .circleclip {
             border-radius: 50%;
@@ -50,7 +33,7 @@
 </head>
 <body>
 
-	<div class="container fadeobj">
+	<div class="container">
         <img class="img-responsive circleclip" style="margin-left: auto; margin-right: auto; max-width:30%;" src="assets/img/me.JPG">
 		<div class="text-center" itemscope itemtype="http://schema.org/Person">
 			<div itemprop="name"><h1 style="font-family: Open Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif">Evan Petousis</h1></div>
@@ -59,9 +42,9 @@
 		</div>
 	</div>
 
-	<hr class="growobj">
+	<hr>
 
-	<div class="container fadeobj">
+	<div class="container">
 		<div class="row row-centered">
 			<div class="col-xs-3 col-sm-2 col-centered">
 				<a href="https://github.com/evilgoldfish"><img class="img-responsive" src="assets/icons/github-256-grey.png"></a>
@@ -77,24 +60,5 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-		$(window).load(function() {
-			$("[rel='tooltip']").tooltip();    
-
-			$('.thumbnail').hover(
-				function(){
-					$(this).find('.caption').fadeIn(250); //.slideDown(250);
-				},
-				function(){
-					$(this).find('.caption').fadeOut(205); //.slideUp(250);
-				}
-			); 
-            
-            $(".fadeobj").addClass("fadeobjload");
-			setTimeout(function(){
-				$('.growobj').addClass('growobjload');
-			}, 275);
-		});
-	</script>
 </body>
 </html>
