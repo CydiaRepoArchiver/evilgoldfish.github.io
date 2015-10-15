@@ -99,6 +99,22 @@ Description: An Activator event that is fired whenever an incorrect passcode or 
 Author: evilgoldfish <epdev@icloud.com>
 Name: Incorrect Passcode For Activator
 
+Package: com.evilgoldfish.livephotosenabler
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: .//com.evilgoldfish.livephotosenabler_1.0.0-1_iphoneos-arm.deb
+Size: 6134
+MD5sum: b7390aee57ce4f0742a02110fac103f7
+SHA1: 165ff3b3bf6ea0d97db3772f6b82cdc040b3eca3
+SHA256: e9423831e522d6ab7ab1a3d3808dc1453d78c211e57bc3c0c71155ee355449b2
+Section: Tweaks
+Description: Live Photos on older devices.
+Author: evilgoldfish
+Name: Live Photos Enabler
+
 Package: com.evilgoldfish.lockglyph
 Version: 1.1.9-17
 Architecture: iphoneos-arm
