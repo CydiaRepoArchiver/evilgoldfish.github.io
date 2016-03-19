@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 184
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader, applist
-Filename: .//com.evilgoldfish.auxgrabber_1.0.0-2_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.auxgrabber_1.0.0-2_iphoneos-arm.deb
 Size: 12748
 MD5sum: bb37e14ef4cab3cff8cd551bce3f667b
 SHA1: cffbe40db40fa934dc7af0097ca432625b49f994
@@ -15,6 +15,22 @@ Author: evilgoldfish
 Depiction: http://evilgoldfish.github.io/repo/auxgrabber/index.html
 Name: AuxGrabber
 
+Package: com.evilgoldfish.ballislyf
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./com.evilgoldfish.ballislyf_1.0_iphoneos-arm.deb
+Size: 4398
+MD5sum: 7ce2204ce9dc5c8ca45abac33a281b32
+SHA1: 9d0ccf42e8b61623e7835e071ee10ea0c154a112
+SHA256: d0373c1f615acff26fd0c6f7a7808327a77f14c82b52ab9804def061308dcebc
+Section: Tweaks
+Description: For people that would rather cheat at the Messenger basketball game.
+Author: evilgoldfish
+Name: BallIsLyf
+
 Package: com.evilgoldfish.brightplayer
 Version: 1.0.3-beta-6
 Architecture: iphoneos-arm
@@ -22,7 +38,7 @@ Maintainer: evilgoldfish
 Installed-Size: 240
 Depends: mobilesubstrate
 Conflicts: kr.slak.rotatevideo
-Filename: .//com.evilgoldfish.brightplayer_1.0.3-beta-6_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.brightplayer_1.0.3-beta-6_iphoneos-arm.deb
 Size: 37616
 MD5sum: 4826414da28bb7729b99ab60ff7026e2
 SHA1: 3147780ca381a4b538fa74af09f6e3a8df5b9811
@@ -38,7 +54,7 @@ Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 184
 Depends: mobilesubstrate
-Filename: .//com.evilgoldfish.failsafe_1.0.2-12_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.failsafe_1.0.2-12_iphoneos-arm.deb
 Size: 15704
 MD5sum: 3c4407ac8e2598a5a21e10c5dab4c78e
 SHA1: 81e3dfd5a4a8fd0ae144e46267a179bcbd0aa658
@@ -55,7 +71,7 @@ Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 260
 Depends: mobilesubstrate, libactivator, preferenceloader
-Filename: .//com.evilgoldfish.floativator_0.9.3-5_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.floativator_0.9.3-5_iphoneos-arm.deb
 Size: 50030
 MD5sum: 8ca3373ba0a66c96c08014c718a83dad
 SHA1: 8926971e74bfe0b1a74c3f982ee7fd1277b37d69
@@ -72,7 +88,7 @@ Architecture: iphoneos-arm
 Maintainer: evilgoldfish & broganminer
 Installed-Size: 248
 Depends: mobilesubstrate, applist, preferenceloader
-Filename: .//com.evilgoldfish.iconresizer_0.9.3-2_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.iconresizer_0.9.3-2_iphoneos-arm.deb
 Size: 49586
 MD5sum: 8e91b9fff37bcc7428faf9298d703f4f
 SHA1: f72561d875d5239845fea05b58431f97924f8729
@@ -89,7 +105,7 @@ Architecture: iphoneos-arm
 Maintainer: evilgoldfish <epdev@icloud.com>
 Installed-Size: 88
 Depends: libactivator (>= 1.8.3), mobilesubstrate
-Filename: .//com.evilgoldfish.incorrectpasscodeevent_1.0.0-1_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.incorrectpasscodeevent_1.0.0-1_iphoneos-arm.deb
 Size: 7882
 MD5sum: e0e1b6274272c9cad1c66c6afe64ba62
 SHA1: 0391c4756102aa2740f810bb5ec1e5fb3969b736
@@ -105,7 +121,7 @@ Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 168
 Depends: firmware (>= 9.0), mobilesubstrate
-Filename: .//com.evilgoldfish.livephotosenabler_1.0.0-4_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.livephotosenabler_1.0.0-4_iphoneos-arm.deb
 Size: 6156
 MD5sum: 1c11267b0ee5403b431718d8ccef0979
 SHA1: 7d53c7f167726adc7248a1908ab1a4d953ed6317
@@ -121,7 +137,7 @@ Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 452
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
-Filename: .//com.evilgoldfish.lockglyph_1.1.9-17_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.lockglyph_1.1.9-17_iphoneos-arm.deb
 Size: 103808
 MD5sum: 95b7d05d430e59b139d3c866fcf5a9b7
 SHA1: 1de0856d230b8b2b57685461f625bb64ac43db22
@@ -137,7 +153,7 @@ Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: .//com.evilgoldfish.nophotosanti-aliasing_1.0.0-1_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.nophotosanti-aliasing_1.0.0-1_iphoneos-arm.deb
 Size: 3514
 MD5sum: c74c5935aac2d1a42fe7dcc65fe5c8b9
 SHA1: 322d7160514a4323faf9048f058868def1af17fa
@@ -153,7 +169,7 @@ Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 184
 Depends: mobilesubstrate
-Filename: .//com.evilgoldfish.noplayerblur_1.0.2-11_iphoneos-arm.deb
+Filename: ./com.evilgoldfish.noplayerblur_1.0.2-11_iphoneos-arm.deb
 Size: 12746
 MD5sum: 0bf3b2a7882e71977bda666a41b1316a
 SHA1: 1b525e11f2d8b37e5d87656c623c1b11d69ab0ec
