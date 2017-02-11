@@ -179,3 +179,19 @@ Description: Removes the blur on the iOS movie player.
 Author: evilgoldfish <epdev@icloud.com>
 Name: NoPlayerBlur
 
+Package: xyz.evilgoldfish.leaderboardruiner
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./xyz.evilgoldfish.leaderboardruiner_1.0.0_iphoneos-arm.deb
+Size: 4708
+MD5sum: dcc5635efc559f77a9e657546fcab0c0
+SHA1: 01262a166e5fbfa8a920d4011e4b46fc45abd1a8
+SHA256: 603d5c27eaf198d6bcbcfeac6cf50545b8a517f4ea3b6899e11010cccb723d22
+Section: Tweaks
+Description: Disappoint your friends and family by changing your score in Facebook games!
+Author: evilgoldfish
+Name: Leaderboard Ruiner
+
