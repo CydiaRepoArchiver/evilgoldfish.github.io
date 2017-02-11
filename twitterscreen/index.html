@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter Screen</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <h1>Twitter Screen</h1>
+    <input type="file" id="filePicker" name="filePicker" />
+    <br>
+    <button type="button" name="genButton" onclick="generate()">Generate</button>
+    <button type="button" name="saveButton" onclick="save()">Save</button>
+    <br>
+    <textarea id="captionArea" rows="4" cols="60"></textarea>
+    <br>
+    <canvas id="previewCanvas" width="375" height="667"></canvas>
+    <script src="js/generator.js"></script>
+  </body>
+</html>
